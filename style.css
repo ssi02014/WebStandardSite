@@ -2,6 +2,29 @@
 /* css 언어설정 */
 @charset "utf-8";
 
+/* 스킵 내비게이션 */
+#skip{
+    position: relative;
+}
+#skip a{
+    /* 절대적인 위치 */
+    position: absolute;
+    left: 0px;
+    top: -35px;
+    border: 1px solid #fff;
+    background: #333;
+    color: #fff;
+    line-height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* focus는 마우스가 탭됬을때 */
+#skip a:active, #skip a:focus{
+    top:0px;
+}
+
 /* 레이아웃 */
 #wrap{
     width: 100%;
@@ -44,7 +67,7 @@
     background: #666;
 }
 
-/* 컨테이너 작업 */
+/* 컨테이너 */
 .container{
     width: 990px;
     margin: 0 auto;
