@@ -13,7 +13,9 @@
     <!-- css Style -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    
+
+    <!-- Web-Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -27,7 +29,35 @@
 
     <div id="wrap">
         <div id="header">
-            <div class="container">header</div>
+            <div class="container">
+                <div class="header">
+                    <div class="header-menu">
+                        <a href="#">Desinger</a>
+                        <a href="#">Publisher</a>
+                        <a href="#">Youtube</a>
+                    </div>
+                    <!-- //header-menu -->
+                    <div class="header-tit">
+                        <h1>Professional Publisher &amp; Desinger</h1><br>
+                        <a href="#">JeonMinjae</a>
+                    </div>
+                    <!-- //header-tit -->
+
+                    <!-- 이미지를 표현하는 방법
+                        1. img 태그로 표현(의미가 있을 때)/ alt 태그- 대체 문자 표현 필요
+                        2. background 속성(의미가 없을 때) - 대체 문자 필요x
+                        3. (최근)이미지를 background 속성으로 표현 / 가상으로 대체를 문자를 만들어줌(IR 효과)
+                            이미지 스프라이트 속성때문// 용량 최소화 등등 효과있음
+                    -->
+                    <div class="header-icon">
+                        <a href="#" class="icon1"><span class="ir_pm">icon1</span></a> 
+                        <a href="#" class="icon2"><span class="ir_pm">icon2</span></a> 
+                        <a href="#" class="icon3"><span class="ir_pm">icon3</span></a> 
+                        <a href="#" class="icon4"><span class="ir_pm">icon4</span></a> 
+                    </div>
+                    <!-- //header-icon -->
+                </div>
+            </div>
         </div>
         <!-- header -->
 
