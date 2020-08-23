@@ -16,6 +16,11 @@ a:hover{
     color: #390;
 }
 
+/* 블릿기호 초기화 */
+dl, ul, ol, li, menu{
+    list-style: none;
+}
+
 /* 폰트초기화 */
 body, input, textarea, button, table{
     font-family: 'Nanum Gothic', sans-serif;
@@ -26,7 +31,7 @@ body, input, textarea, button, table{
 
 /* IR 효과: 이미지 대체 텍스트 제공을 위한 CSS 기법 */
 
-/* 1. 의미있는 이미지에 대체 텍스트 제공 */
+    /* 1. 의미있는 이미지에 대체 텍스트 제공 */
 .ir_pm{
     display: block;
     overflow: hidden;
@@ -35,7 +40,7 @@ body, input, textarea, button, table{
     /* /text-indent: 들여쓰기 */
     text-indent: -9999px;
 }
-/* 2. 의미있는 이미지에 대체 텍스트로 이미지가 없어도 대체 텍스트를 보여주고자 할 때 사용 */
+    /* 2. 의미있는 이미지에 대체 텍스트로 이미지가 없어도 대체 텍스트를 보여주고자 할 때 사용 */
 .ir_wa{
     display: block;
     overflow: hidden;
@@ -44,7 +49,7 @@ body, input, textarea, button, table{
     width: 100%;
     height: 100%;
 }
-/* 3. 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 사용 */
+    /* 3. 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 사용 */
 .ir_su{
     overflow: hidden;
     position: absolute;
