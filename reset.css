@@ -29,6 +29,12 @@ body, input, textarea, button, table{
     line-height: 1.5;  
 }
 
+/* 제목 태그 초기화 */
+h1, h2, h3, h4, h5, h6{
+    font-size: 13px;
+    color: #222;
+    font-weight: normal;
+}
 /* IR 효과: 이미지 대체 텍스트 제공을 위한 CSS 기법 */
 
     /* 1. 의미있는 이미지에 대체 텍스트 제공 */
