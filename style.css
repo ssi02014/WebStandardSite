@@ -520,3 +520,117 @@
     padding-top: 3px;
     font-size: 12px;
 }
+
+/* //마우스 오버 효과1 */
+
+/* 
+콘텐츠 요소를 보이지 않게 하는 방법
+    1. display: none <-> display: block (영역이 사라짐)
+    2. visibility : hidden <-> visibility : visible; (영역 유지)
+    3. opacity: 0 <-> opacity: 1; (영역 유지)
+    4. width: 0, height: 0, overflow:hidden; 
+*/
+
+/* tap-menu */
+
+.tap-menu{
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 8px;
+    height: 105px;
+}
+.tap-menu ul{
+    overflow: hidden;
+    border-bottom:  1px solid #ccc;
+}
+.tap-menu ul li{
+    float: left;
+    border: 1px solid #ccc;
+
+    /* 겹치는 border을 한 줄로 보이게 하는 방법 */
+    margin-right: -1px;
+    margin-bottom: -1px;
+    
+}
+.tap-menu ul li a{
+    display: block;
+    padding: 5px 10px;
+}
+.tap-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    width: 270px;
+    border: 0;
+}
+.tap-menu ul li ul li{
+    float: none;
+    border: 0;
+    background:url(img/dot.gif) no-repeat 9px 8px;
+    padding-left: 18px;
+}
+.tap-menu ul li ul li a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    padding: 0 0 3px 0;
+}
+
+.tap-menu ul li.active{
+    background: #2c94c4;
+}
+.tap-menu ul li.active a{
+    color: #333;
+}
+
+/* 게시판4 */
+.notice4{
+    position: relative;
+    padding-top: 10px
+}
+.notice4 ul{
+    float: left;
+    border: 1px solid #ccc;
+}
+.notice4 ul li h4{
+    font-size: 14px;
+    color: #0093bd;
+    padding-top: 3px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.notice4 ul li h4 em{
+    color : #cf3292
+}
+.notice4 ul li h4 span{
+    float: right;
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+}
+.notice4 ul li ul{
+    padding : 8px 3px;
+    margin: 0 -1px -1px -1px;
+}
+.notice4 ul li ul li{
+    float: none;
+    border: 0;
+    background:url(img/dot.gif) no-repeat 9px 8px;
+    padding: 0 0 3px 18px;
+}
+.notice4 ul li ul li a{
+    font-size: 12px;
+    float: left;
+    width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.notice4 ul li ul li span{
+    padding-left: 15px;
+    width: 35%;
+}
+
+/* //게시판4 */
