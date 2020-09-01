@@ -225,6 +225,58 @@
                         <div class="column col3">
                             <h3><span class="ico_img ir_pm">아이콘</span><span class="ico_title">Notice</span></h3>
                             <p class="ico_desc">가장 웹 페이지에서 기본이 되는 게시판 유형입니다.</p>
+                            <!-- 로그인 폼 -->
+                            <div id="login-wrap">
+                                <h4 class="ir_su">로그인 정보</h4>
+                                <form id="login-form" name="login-form" action="post">
+                                    <fieldset>
+                                        <legend class="ir_su">로그인 및 관련 설정</legend>
+                                        <div class="login-header">
+                                            <h5 class="ir_su">로그인 보안</h5>
+                                            <div class="lh-check">
+                                                <!-- 접근성으로 위해서 input id와 label id를 같게 해줘야함 그러면 글자만 클릭해도 체크됨 -->
+                                                <input id="infor-check" type="checkbox" class="input-check">
+                                                <label for="infor-check">로그인 상태 유지</label>
+                                            </div>
+                                            <div class="lh-ip">
+                                                IP보안 <em>ON</em>
+                                            </div>
+                                        </div>
+                                        <div class="login-content">
+                                            <h5 class="ir_su">로그인 영역</h5>
+                                            <div class="lc-text">
+                                                <label for="uid" class="ir_su">아이디</label>
+                                                <input type="text" name="uid" id="uid" class="input-text" maxlength="20">
+                                                <label for="upw" class="ir_su">비밀번호</label>
+                                                <input type="password" name="upw" id="upw" class="input-text" maxlength="20">
+                                            </div>
+                                            <button class="lc-btn" type="submit">로그인</button>
+                                        </div>
+                                        <div class="login-footer">
+                                            <h5 class="ir_su">로그인 문제 해결</h5>
+                                            <ul>
+                                                <li><a href="#"><strong>회원가입</strong></a> / </li>
+                                                <li><a href="#">아이디</a>&middot;
+                                                <a href="#">비밀번호 찾기</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <!-- //로그인 폼 -->
+
+                            <!-- 팝업 -->
+                            <div class="popup">
+                                <h4>Advertisement</h4>
+                                <ul>
+                                    <li><a href="#"><img src="img/sban07.jpg" alt="이미지1"></a></li>
+                                    <li><a href="#"><img src="img/sban08.jpg" alt="이미지2"></a></li>
+                                    <li class="last"><a href="#"><img src="img/sban09.jpg" alt="이미지3"></a></li>
+                                </ul>
+                            </div>
+                            <!-- //팝업 -->
                         </div> 
                         <!-- // col3-->
                         <div class="column col4">
@@ -335,6 +387,28 @@
                         <div class="column col6">
                             <h3><span class="ico_img ir_pm">아이콘</span><span class="ico_title">Notice</span></h3>
                             <p class="ico_desc">가장 웹 페이지에서 기본이 되는 게시판 유형입니다.</p>
+                            <!-- 갤러리 -->
+                            <div class="gallery">
+                                <h4>Portfolio</h4>
+                                <div class="gallery-btn">
+                                    <ul>
+                                        <li class="gb-icon1"><a href="#"><span class="ir_pm">시작</span></a></li>
+                                        <li class="gb-icon2"><a href="#"><span class="ir_pm">정지</span></a></li>
+                                        <li class="gb-icon3"><a href="#"><span class="ir_pm">이전이미지</span></a></li>
+                                        <li class="gb-icon4"><a href="#"><span class="ir_pm">다음이미지</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="gallery-img">
+                                    <ul>
+                                        <li><a href="#"><img src="img/gallery01.jpg" alt="갤러리1"></a></li>
+                                        <li><a href="#"><img src="img/gallery02.jpg" alt="갤러리2"></a></li>
+                                        <li><a href="#"><img src="img/gallery03.jpg" alt="갤러리3"></a></li>
+                                        <li><a href="#"><img src="img/gallery04.jpg" alt="갤러리4"></a></li>
+                                        <li><a href="#"><img src="img/gallery05.jpg" alt="갤러리5"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- //갤러리 -->
                         </div> 
                         <!-- // col6-->
                     </div>

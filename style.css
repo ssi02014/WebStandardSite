@@ -556,6 +556,7 @@
     display: block;
     padding: 5px 10px;
 }
+
 .tap-menu ul li ul{
     position: absolute;
     left: 0;
@@ -575,6 +576,10 @@
     white-space: nowrap;
     width: 100%;
     padding: 0 0 3px 0;
+}
+
+.tap-menu ul li ul li a:hover{
+    color: #390;
 }
 
 .tap-menu ul li.active{
@@ -598,7 +603,7 @@
     color: #0093bd;
     padding-top: 3px;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 8px 10px;
 }
 .notice4 ul li h4 em{
     color : #cf3292
@@ -634,3 +639,151 @@
 }
 
 /* //게시판4 */
+
+/* 갤러리 */
+.gallery{
+    border: 1px solid #ccc;
+    height: 254px;
+    position: relative;
+    overflow: hidden;
+}
+.gallery h4{
+    font-size: 14px;
+    color: #0093bd;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 8px 11px;
+    font-weight: bold;
+}
+.gallery .gallery-btn{
+    position: absolute;
+    right: 5px;
+    top: 7px;
+
+}
+.gallery .gallery-btn ul {
+    overflow: hidden;
+}
+.gallery .gallery-btn li{
+    float: left;
+    margin: 1px 2px;
+}
+.gallery .gallery-btn li a{
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url(img/icon.png) no-repeat;
+}
+.gallery .gallery-btn li.gb-icon1 a{
+    background-position: -150px -120px;
+}
+.gallery .gallery-btn li.gb-icon2 a{
+    background-position: -150px -143px;
+}
+.gallery .gallery-btn li.gb-icon3 a{
+    background-position: -150px -166px;
+}
+.gallery .gallery-btn li.gb-icon4 a{
+    background-position: -150px -189px;
+}
+.gallery .gallery-btn li.gb-icon1 a:hover{
+    background-position: -173px -120px;
+}
+.gallery .gallery-btn li.gb-icon2 a:hover{
+    background-position: -173px -143px;
+}
+.gallery .gallery-btn li.gb-icon3 a:hover{
+    background-position: -173px -166px;
+}
+.gallery .gallery-btn li.gb-icon4 a:hover{
+    background-position: -173px -189px;
+}
+.gallery .gallery-img img{
+    width: 100%;
+}
+
+/* //갤러리 */
+
+/* 로그인 */
+#login-wrap{
+    background-color: #f2f4f5;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.login-header{
+    overflow: hidden;
+    font-size: 12px;
+    height: 30px;
+}
+.login-header .lh-check{
+    float: left;
+    padding-right: 15px;
+}
+.login-header .lh-check .input-check{
+    vertical-align: -2px;
+}
+.login-header .lh-ip{
+    float: left;
+}
+.login-header .lh-ip em{
+    color: #0093bd;
+    text-decoration: underline;
+}
+.login-content{
+    position: relative;
+}
+.login-content .lc-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 62px;
+    height: 47px;
+    background-color: #fff;
+    border: 1px solid #bebebe;
+}
+.login-content .input-text{
+    width: 182px;
+    height: 16px;
+    padding: 2px 5px;
+    border: 1px solid #bebebe;
+    margin-bottom: 3px;
+    background-color: #fff;
+}
+.login-footer{
+    margin-top: 5px;
+}
+.login-footer li{
+    display: inline;
+}
+.login-footer li a{
+    font-size: 12px;
+}
+/* //로그인 */
+
+/* 팝업 */
+.popup{
+}
+.popup h4{
+    font-size: 14px;
+    color: #0093bd;
+    padding-bottom: 4px;
+    font-weight: 700;
+}
+.popup ul{
+    overflow: hidden;
+}
+.popup li{
+    float: left;
+    width: 93px;
+    margin-right: 5px;
+}
+.popup li.last{
+    margin-right: 0;
+}
+.popup li a{
+
+}
+.popup li a img{
+    width: 100%;
+}
+/* //팝업 */
+
