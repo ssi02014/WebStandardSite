@@ -48,5 +48,12 @@
   <li> 학습: 로그인 폼 HTML 기본 구성; </li>
  </ol>
  <br>
+      /* 2020-09-02 */ <br>
+ <ol>
+  <li> footer 구성</li>
+  <li> 전체 메뉴 스크립트 구성 </li>
+  <li> 학습: Jquery 적용, toggle; </li>
+ </ol>
+ <br>
 
 
