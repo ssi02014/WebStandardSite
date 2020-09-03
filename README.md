@@ -58,7 +58,7 @@
        /* 2020-09-03 */ <br>
  <ol>
   <li> 배너 스크립트 구성 </li>
-  <li> 학습: Juqery slick 적용  </li>
+  <li> 학습: Jquery slick 적용  </li>
  </ol>
  <br>
 
