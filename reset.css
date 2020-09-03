@@ -45,7 +45,10 @@ h1, h2, h3, h4, h5, h6{
 img, fieldset{
     border: 0 none;
 }
-
+/* 버튼 초기화 */
+button {
+    border : 0;
+}
 /* IR 효과: 이미지 대체 텍스트 제공을 위한 CSS 기법 */
 
     /* 1. 의미있는 이미지에 대체 텍스트 제공 */
