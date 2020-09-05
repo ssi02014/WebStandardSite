@@ -591,17 +591,17 @@
 
 /* tap-menu */
 
-.tap-menu{
+.tab-menu{
     position: relative;
     border: 1px solid #ccc;
     padding: 8px;
     height: 105px;
 }
-.tap-menu ul{
+.tab-menu ul{
     overflow: hidden;
     border-bottom:  1px solid #ccc;
 }
-.tap-menu ul li{
+.tab-menu ul li{
     float: left;
     border: 1px solid #ccc;
 
@@ -610,25 +610,25 @@
     margin-bottom: -1px;
     
 }
-.tap-menu ul li a{
+.tab-menu ul li a{
     display: block;
     padding: 5px 10px;
 }
 
-.tap-menu ul li ul{
+.tab-menu ul li ul{
     position: absolute;
     left: 0;
     top: 48px;
     width: 270px;
     border: 0;
 }
-.tap-menu ul li ul li{
+.tab-menu ul li ul li{
     float: none;
     border: 0;
     background:url(img/dot.gif) no-repeat 9px 8px;
     padding-left: 18px;
 }
-.tap-menu ul li ul li a{
+.tab-menu ul li ul li a{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -636,14 +636,14 @@
     padding: 0 0 3px 0;
 }
 
-.tap-menu ul li ul li a:hover{
+.tab-menu ul li ul li a:hover{
     color: #390;
 }
 
-.tap-menu ul li.active{
+.tab-menu ul li.active{
     background: #2c94c4;
 }
-.tap-menu ul li.active a{
+.tab-menu ul li.active a{
     color: #333;
 }
 
@@ -701,8 +701,8 @@
 /* 갤러리 */
 .gallery{
     border: 1px solid #ccc;
-    height: 254px;
     position: relative;
+    height: 255px;
     overflow: hidden;
 }
 .gallery h4{
@@ -718,7 +718,7 @@
     top: 7px;
 
 }
-.gallery .gallery-btn ul {
+.gallery .gallery-btn ul{
     overflow: hidden;
 }
 .gallery .gallery-btn li{
@@ -758,6 +758,41 @@
 .gallery .gallery-img img{
     width: 100%;
 }
+
+/* 슬릭 갤러리 */
+.gallery .gallery-btn button {
+    float: left;
+    margin: 1px 2px;
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url(img/icon.png) no-repeat;
+}
+.gallery .gallery-btn .gb-icon1 {
+    background-position: -150px -120px;
+}
+.gallery .gallery-btn .gb-icon2{
+    background-position: -150px -143px;
+}
+.gallery .gallery-btn .gb-icon3{
+    background-position: -150px -166px;
+}
+.gallery .gallery-btn .gb-icon4{
+    background-position: -150px -189px;
+}
+.gallery .gallery-btn .gb-icon1:hover{
+    background-position: -173px -120px;
+}
+.gallery .gallery-btn .gb-icon2:hover{
+    background-position: -173px -143px;
+}
+.gallery .gallery-btn .gb-icon3:hover{
+    background-position: -173px -166px;
+}
+.gallery .gallery-btn .gb-icon4:hover{
+    background-position: -173px -189px;
+}
+/* //슬릭 갤러리 */
 
 /* //갤러리 */
 
