@@ -1,12 +1,14 @@
 # WebStandardSite
-<p><strong> 웹 페이지 화면 </strong></p>
+<p><strong>/* 웹 페이지 화면 */ </strong></p>
+<p> URL : http://ssi02014.dothome.co.kr/ </p>
+
 
 ![1](https://user-images.githubusercontent.com/64779472/92410375-da5e2e00-f17e-11ea-8eb1-c3d9706a29c5.PNG) 
 ![2](https://user-images.githubusercontent.com/64779472/92410378-db8f5b00-f17e-11ea-8c82-dbd915f72eb7.PNG)
 <br>
 <br>
 <br>
-<p> <strong>w3c HTML, CSS 검사</strong> </p>
+<p> <strong>/* W3C HTML, W3C CSS 검사 */ </strong> </p>
 <br>
 
 
