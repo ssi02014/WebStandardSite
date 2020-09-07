@@ -1,7 +1,6 @@
 # WebStandardSite
-<br>
+
 ![1](https://user-images.githubusercontent.com/64779472/92410375-da5e2e00-f17e-11ea-8eb1-c3d9706a29c5.PNG) 
-<br>
 ![2](https://user-images.githubusercontent.com/64779472/92410378-db8f5b00-f17e-11ea-8c82-dbd915f72eb7.PNG)
 <br>
 
