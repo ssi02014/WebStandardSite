@@ -1,8 +1,18 @@
 # WebStandardSite
+<p><strong> 웹 페이지 화면 </strong></p>
 
 ![1](https://user-images.githubusercontent.com/64779472/92410375-da5e2e00-f17e-11ea-8eb1-c3d9706a29c5.PNG) 
 ![2](https://user-images.githubusercontent.com/64779472/92410378-db8f5b00-f17e-11ea-8c82-dbd915f72eb7.PNG)
 <br>
+<br>
+<br>
+<p> <strong>w3c HTML, CSS 검사</strong> </p>
+<br>
+
+
+![1](https://user-images.githubusercontent.com/64779472/92410522-53f61c00-f17f-11ea-89e5-e0b42acdd479.PNG)
+![2](https://user-images.githubusercontent.com/64779472/92410524-548eb280-f17f-11ea-96f0-15deef31fbd5.PNG)
+
 
 /* 2020-08-22 */ <br>
  <ol>
