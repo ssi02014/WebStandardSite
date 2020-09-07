@@ -67,4 +67,14 @@
   <li> 갤러리 스크립트(Jquery) 구성  </li>
  </ol>
  <br>
+        /* 2020-09-07 */ <br>
+ <ol>
+  <li> 레이어 팝업, 윈도우 팝업(Jquery) 구성 </li>
+  <li> lightgallery(Jquery) 적용  </li>
+  <li> 웹 호스팅  </li>
+  <li> w3c html, w3c css 검사  </li>
+  <li> openWax 검사  </li>
+ </ol>
+ <br>
+
 
