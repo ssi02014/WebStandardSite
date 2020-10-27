@@ -1,6 +1,6 @@
 # WebStandardSite
 <h2><strong>/* 웹 페이지 화면 */ </strong></h2>
-<h2> URL : http://ssi02014.dothome.co.kr/ </h2>
+<h2> URL : https://ssi02014.github.io/WebStandardSite/</h2>
 
 
 ![1](https://user-images.githubusercontent.com/64779472/92410375-da5e2e00-f17e-11ea-8eb1-c3d9706a29c5.PNG) 
