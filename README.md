@@ -1,18 +1,11 @@
-# 💻 Blog
+# 💻 WebStandardSite
 ### W3C 웹 표준 준수 사이트
 
 <br />
 
-## ⭐Github Page : https://ssi02014.github.io/WebStandardSite/ 
+### ⭐ Github Page : https://ssi02014.github.io/WebStandardSite/ 
 
 <br />
-
-## 🔖 Main Development Stack
-### 👨🏻‍💻 Frontend
-1. HTML
-2. CSS
-3. JavaScript(Jquery)
-
 <br />
 
 ## 🎥 index.html 
@@ -21,11 +14,23 @@
 ![2](https://user-images.githubusercontent.com/64779472/92410378-db8f5b00-f17e-11ea-8c82-dbd915f72eb7.PNG)
 
 <br />
+<hr />
+<br />
 
 ## 🎥 W3C Check
 
 ![1](https://user-images.githubusercontent.com/64779472/92410522-53f61c00-f17f-11ea-89e5-e0b42acdd479.PNG)
 ![2](https://user-images.githubusercontent.com/64779472/92410524-548eb280-f17f-11ea-96f0-15deef31fbd5.PNG)
+
+<br />
+<hr />
+<br />
+
+## 🔖 Main Development Stack
+### 👨🏻‍💻 Frontend
+1. HTML
+2. CSS
+3. JavaScript(Jquery)
 
 <br />
 <br />
@@ -73,7 +78,7 @@
     3. float을 사용한 상위 박스한테 overflow:hidden을 사용
     4. clearfix를 사용 (O) 가장 좋은 방법
 
-  but❗ display:flex가 가장 좋음!
+  but❗❗ display:flex가 가장 좋음!
 ```
 
 <br />
@@ -108,6 +113,52 @@
   }
 ```
 
+<br />
+
+### 🔍 Image Sprite
+```
+  - 이미지 스프라이트(image sprite): 여러 개의 이미지를 하나의 이미지로 합쳐서 관리하는 이미지를 의미한다.
+
+  - 장점
+      1. 이미지를 다운받기 위한 서버 요청을 줄일 수 있다.
+      2. 모바일 환경과 같은 한정된 자원을 사용하는 플랫폼에서는 웹 페이지 로딩 시간을 단축해주는 효과가 있다.
+      3. 많은 이미지 파일을 관리하는 대신 몇 개의 스프라이트 이미지 파일만을 관리하므로 간편한다.
+```
+
+```css
+  /* image sprite */
+  .header .header-icon a{
+    width: 60px;
+    height: 60px;
+    background: url(../img/icon.png);
+    display: inline-block;
+    margin: 0 3px;
+  }
+  .header .header-icon a.icon1{
+      background-position: 0 0;
+  }
+  .header .header-icon a.icon2{
+      background-position: 0 -60px;
+  }
+  .header .header-icon a.icon3{
+      background-position: 0 -120px;
+  }
+  .header .header-icon a.icon4{
+      background-position: 0 -180px;
+  }
+  .header .header-icon a.icon1:hover{
+      background-position: -60px 0;
+  }
+  .header .header-icon a.icon2:hover{
+      background-position: -60px -60px;
+  }
+  .header .header-icon a.icon3:hover{
+      background-position: -60px -120px;
+  }
+  .header .header-icon a.icon4:hover{
+      background-position: -60px -180px;
+  }
+```
 <br />
 <br />
 
