@@ -1,5 +1,5 @@
 # 💻 WebStandardSite
-### HTML, CSS, JS(Jquery)를 이용해서 만든 W3C 웹 표준 준수 사이트
+### HTML, CSS, JS(Jquery)를 이용해서 만든 W3C 웹 표준 준수 사이트 (반응형X)
 ### ⭐ Github Page : https://ssi02014.github.io/WebStandardSite/ 
 
 <br />
