@@ -72,7 +72,7 @@
 
 ### 🔍 2. float
 ```
-  float: left로 인한 영역깨짐(height:0) 방지법
+  ✅ float: left로 인한 영역깨짐(height:0) 방지법
     1. 깨지는 영역에 똑같이 float:left를 사용
     2. float의 성질을 차단하는 clear:both; 를 사용
     3. float을 사용한 상위 박스한테 overflow:hidden을 사용
@@ -85,9 +85,9 @@
 
 ### 🔍 3. 콘텐츠 요소를 보이지 않게 하는 방법
 ```
-    1. display: none <-> display: block (영역이 사라짐)
-    2. visibility : hidden <-> visibility : visible; (영역 유지)
-    3. opacity: 0 <-> opacity: 1; (영역 유지)
+    1. display: none ↔️ display: block (영역이 사라짐)
+    2. visibility : hidden ↔️ visibility : visible; (영역 유지)
+    3. opacity: 0 ↔️ opacity: 1; (영역 유지)
     4. width: 0, height: 0, overflow:hidden; 
 ```
 
@@ -115,9 +115,9 @@
 
 <br />
 
-### 🔍 Image Sprite
+### 🔍 5. Image Sprite
 ```
-  - 이미지 스프라이트(image sprite): 여러 개의 이미지를 하나의 이미지로 합쳐서 관리하는 이미지를 의미한다.
+  ✅ 이미지 스프라이트(image sprite): 여러 개의 이미지를 하나의 이미지로 합쳐서 관리하는 이미지를 의미한다.
 
   - 장점
       1. 이미지를 다운받기 위한 서버 요청을 줄일 수 있다.
@@ -163,6 +163,15 @@
 ```
 <br />
 <br />
+
+### 6.
+```
+  ✅ 이미지를 표현하는 방법
+    1. img 태그로 표현(의미가 있을 때) alt 태그 - 대체 문자 표현 필요
+    2. background 속성(의미가 없을 때) - 대체 문자 필요 x
+    3. (최근)이미지를 background 속성으로 표현 / 가상으로 대체를 문자를 만들어줌(IR 효과)
+        이미지 스프라이트 속성때문// 용량 최소화 등등 효과있음
+``` 
 
 ## 📈 Javascript 라이브러리(Jquery)
 ### 🔍 1. html에 css, javascript 삽입하기
