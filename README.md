@@ -27,7 +27,7 @@
 <br />
 
 ## 🔖 Main Development Stack
-### 👨🏻‍💻 Frontend
+### 👨🏻‍💻 FrontEnd
 1. HTML
 2. CSS
 3. JavaScript(Jquery)
@@ -181,8 +181,19 @@
 
 <br />
 
-### 🔍 2. slick 라이브러리를 통한 Slide 구현하기
+### 🔍 2. Slick 라이브러리를 통한 Slide 구현하기
 ```javascript
+  //Banner
+  $(".ban").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 3000, //3초에 1번씩 autoplay
+    dots: true
+});
+
+  //Gallery
   $(".gallery-img").slick({
       arrows: false,      //slick의 prev, next 버튼
       fade: true,         //페이드 효과주기

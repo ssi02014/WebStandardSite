@@ -34,7 +34,7 @@ $(".next").click(function(){
 
 //메뉴
 
-    //버튼을 누르면 전체 메뉴가 나오게 하는 방법
+//버튼을 누르면 전체 메뉴가 나오게 하는 방법
 
 $(".tit .btn").click(function(e){
     e.preventDefault();
@@ -85,7 +85,7 @@ $tab_list.find("li.active > ul").show();
 
 function tabMenu(e) {
     let $this = $(this);
-    
+
     e.preventDefault();
 
     $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").
