@@ -1,5 +1,40 @@
-//라이트 겔러리
+const $tab_list = $(".tab-menu");
 
+//banner
+$(".ban").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 3000, //3초에 1번씩 autoplay
+    dots: true
+});
+
+//banner menu
+$(".tit .btn").click(function(e){
+    e.preventDefault();
+
+    $("#cont_nav").slideToggle(200);
+    $(this).toggleClass("on"); //클릭하면 class에 on이 붙고 빼고함
+});
+
+//tab menu
+
+$tab_list.find("ul ul").hide();
+$tab_list.find("li.active > ul").show();
+$tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
+
+function tabMenu(e) {
+    let $this = $(this);
+
+    e.preventDefault();
+
+    $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").
+    find(">ul").hide();
+}
+
+
+//light gallery
 $(".lightgallery").lightGallery({
     thembnail: true,
     autoplay: true,
@@ -7,8 +42,7 @@ $(".lightgallery").lightGallery({
     progressBar: true
 });
 
-//갤러리 
-
+//gallery 
 $(".gallery-img").slick({
     arrows: false, //slick의 prev, next 버튼
     fade: true, //페이드 효과주기
@@ -32,78 +66,22 @@ $(".next").click(function(){
 });
 
 
-//메뉴
-
-//버튼을 누르면 전체 메뉴가 나오게 하는 방법
-
-$(".tit .btn").click(function(e){
-    e.preventDefault();
-    // $("#cont_nav").css("display","block");
-    // css라면 #cont_nav {display:block}
-    // $("#cont_nav").show();
-    // $("#cont_nav").fadeIn();
-    // $("#cont_nav").slideDown();
-
-    // 위에 것들은 1번씩 밖에 사용을 못함
-
-    // $("#cont_nav").toggle(); //show랑 hidden이랑 합쳐짐
-    // $("#cont_nav").fadeToggle();
-    $("#cont_nav").slideToggle(200);
-    $(this).toggleClass("on"); //클릭하면 class에 on이 붙고 빼고함
-});
-
- // 팝업
+//popup
 $(".layer").click(function(e){
     e.preventDefault();
-    // $("#layer").css("display", "block");
-    // $("#layer").show();
-    // $("#layer").fadeIn();
     $("#layer").slideDown();
 });
 
 $("#layer .close").click(function(e){
     e.preventDefault();
-    // $("#layer").css("display", "none");
-    // $("#layer").fadeOut();
     $("#layer").slideUp();
 });
 
-
-
-// 윈도우 팝업
+//window popup
 $(".window").click(function(e){
     e.preventDefault();
     window.open("sample_popup.html","popup01", "width=800, height=590, left=50, top= 50, scrollbars=0, toolbar=0, menubar=0");
 });
 
 
-// 탭 메뉴
-let $tab_list = $(".tab-menu");
-
-$tab_list.find("ul ul").hide();
-$tab_list.find("li.active > ul").show();
-
-function tabMenu(e) {
-    let $this = $(this);
-
-    e.preventDefault();
-
-    $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").
-    find(">ul").hide();
-}
-
-$tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
-
-
-// 배너
-//html 마크업 셋팅 -> css 연동 -> 제이쿼리 연동 
-// -> 제이쿼리 호출
-$(".ban").slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 3000, //3초에 1번씩 autoplay
-    dots: true
-});
   

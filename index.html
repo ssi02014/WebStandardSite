@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<!-- 브라우저가 언어를 인식 -->
 <html lang="ko">
 <head>
-    <!-- 언어설정 -->
+    <!-- Meta Setting -->
     <meta charset="UTF-8">
     <meta name="author" content="JeonMinjae">
     <meta name="description" content="웹 표준을 준수한 사이트">
@@ -10,26 +9,25 @@
     <meta name="generator" content="Visual Studio Code">
     <title>Web Standard Site</title>
 
-    <!-- css Style -->
+    <!-- CSS Style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/lightgallery.css">
 
-    <!-- Web-Font -->
+    <!-- Web Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <!-- 스킵 내비게이션 -->
+    <!-- skip nav -->
     <div id="skip">
         <a href="#cont_nav">전체 메뉴 바로가기</a>
         <a href="#cont_ban">배너 메뉴 바로가기</a>
         <a href="#cont_cont">컨텐츠 영역 바로가기</a>
     </div>
-    <!-- //스킵내비게이션 -->
+    <!-- //skip nav -->
 
     <div id="wrap">
         <div id="header">
@@ -40,7 +38,7 @@
                         <a href="#">Publisher</a>
                         <a href="#">Youtube</a>
                     </div>
-                    
+
                     <!-- //header-menu -->
                     <div class="header-tit">
                         <h1>Professional Publisher &amp; Front End Developer</h1><br>
@@ -48,12 +46,6 @@
                     </div>
                     <!-- //header-tit -->
 
-                    <!-- 이미지를 표현하는 방법
-                        1. img 태그로 표현(의미가 있을 때)/ alt 태그- 대체 문자 표현 필요
-                        2. background 속성(의미가 없을 때) - 대체 문자 필요x
-                        3. (최근)이미지를 background 속성으로 표현 / 가상으로 대체를 문자를 만들어줌(IR 효과)
-                            이미지 스프라이트 속성때문// 용량 최소화 등등 효과있음
-                    -->
                     <div class="header-icon">
                         <a href="#" class="icon1"><span class="ir_pm">icon1</span></a> 
                         <a href="#" class="icon2"><span class="ir_pm">icon2</span></a> 
@@ -64,8 +56,8 @@
                 </div>
             </div>
         </div>
-        <!-- header -->
 
+        <!-- header -->
         <div id="contents">
             <div id="cont_nav">
                 <div class="container">
@@ -138,14 +130,6 @@
             <div id="cont_ban">
                 <div class="container">
                     <div class="ban">
-                        <!-- <a href="#" class="prev"><spa class="ir_pm">이전 이미지</span></a>
-                        <ul>
-                            <li class="ban_img1"><a href="#"><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></li>
-                            <li class="ban_img2"><a href="#"><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></li>
-                            <li class="ban_img3"><a href="#"><img src="img/banner_link3.jpg" alt="로그인 폼 만들기"></a></li>
-                        </ul>
-                        <a href="#" class="next"><span class="ir_pm">다음 이미지</span></a> -->
-
                         <!-- 슬릭박스 (배너) -->
                         <div><a href=""><img src="img/banner_link1.jpg" alt="웹 표준 지침서 보기"></a></div>
                         <div><a href=""><img src="img/banner_link2.jpg" alt="CSS 버튼 만들기"></a></div>
@@ -166,6 +150,7 @@
                         <div class="column col1">
                             <h3><span class="ico_img ir_pm">아이콘</span><span class="ico_title">Notice</span></h3>
                             <p class="ico_desc">가장 웹 페이지에서 기본이 되는 게시판 유형입니다.</p>
+
                             <!-- 게시판 -->
                             <div class="notice">
                                 <h4>Web publisher Notice</h4>
@@ -194,10 +179,12 @@
                             </div>
                             <!-- //게시판2 -->
                         </div> 
+
                         <!-- // col1-->
                         <div class="column col2">
                             <h3><span class="ico_img ir_pm">아이콘</span><span class="ico_title">Notice</span></h3>
                             <p class="ico_desc">가장 웹 페이지에서 기본이 되는 게시판 유형입니다.</p>
+
                             <!-- 게시판3 -->
                             <div class="notice3">
                                 <h4>HTML Reference</h4>
@@ -235,10 +222,12 @@
                             </div>
                             <!-- //게시판3 -->
                         </div> 
+
                         <!-- // col2-->
                         <div class="column col3">
                             <h3><span class="ico_img ir_pm">아이콘</span><span class="ico_title">Notice</span></h3>
                             <p class="ico_desc">가장 웹 페이지에서 기본이 되는 게시판 유형입니다.</p>
+
                             <!-- 로그인 폼 -->
                             <div id="login-wrap">
                                 <h4 class="ir_su">로그인 정보</h4>
@@ -281,7 +270,7 @@
                             </div>
                             <!-- //로그인 폼 -->
 
-                            <!-- 팝업 -->
+                            <!-- Popup -->
                             <div class="popup">
                                 <h4>Advertisement</h4>
                                 <ul>
@@ -294,7 +283,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- //팝업 -->
+                            <!-- //Popup -->
                         </div> 
                         <!-- // col3-->
                         <div class="column col4">
@@ -410,16 +399,13 @@
                             <div class="gallery">
                                 <h4>Portfolio</h4>
                                 <div class="gallery-btn">
-
                                     <!-- 슬릭박스(갤러리)1 -->
                                     <button class="gb-icon1 play"><span class="ir_pm">시작</span></button>
                                     <button class="gb-icon2 pause"><span class="ir_pm">정지</span></button>
                                     <button class="gb-icon3 prev"><span class="ir_pm">이전 이미지</span></button>
                                     <button class="gb-icon4 next"><span class="ir_pm">다음 이미지</span></button>
-
                                 </div>
                                 <div class="gallery-img">
-
                                     <!-- 슬릭박스(갤러리)2 -->
                                     <div><a href="#"><img src="img/gallery01.jpg" alt="갤러리1"></a></div>
                                     <div><a href="#"><img src="img/gallery02.jpg" alt="갤러리2"></a></div>
@@ -484,8 +470,6 @@
     <script src="js/lightgallery.min.js"></script>
     <script src="js/lightgallery-all.min.js"></script>
     <script src="js/custom.js"></script>
-    
-    
     <!-- //스크립트 -->
 
 </body>
