@@ -53,7 +53,6 @@ $(".tit .btn").click(function(e){
 });
 
  // 팝업
-    //  레이어 팝업
 $(".layer").click(function(e){
     e.preventDefault();
     // $("#layer").css("display", "block");
@@ -71,26 +70,24 @@ $("#layer .close").click(function(e){
 
 
 
-    // 윈도우 팝업
-
+// 윈도우 팝업
 $(".window").click(function(e){
     e.preventDefault();
-    // window.open("파일명","팝업이름","옵션설정;")
-    //옵션: left, top, width, height, status, toolbar, location
-    //menubar, scroollbars, fullscreen
     window.open("sample_popup.html","popup01", "width=800, height=590, left=50, top= 50, scrollbars=0, toolbar=0, menubar=0");
 });
 
 
 // 탭 메뉴
-var $tab_list = $(".tab-menu");
+let $tab_list = $(".tab-menu");
 
 $tab_list.find("ul ul").hide();
 $tab_list.find("li.active > ul").show();
 
-function tabMenu(e){
+function tabMenu(e) {
+    let $this = $(this);
+    
     e.preventDefault();
-    var $this = $(this);
+
     $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").
     find(">ul").hide();
 }
@@ -108,5 +105,5 @@ $(".ban").slick({
     autoplay: true,
     autoplaySpeed: 3000, //3초에 1번씩 autoplay
     dots: true
-  });
+});
   
